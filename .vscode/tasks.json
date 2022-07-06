@@ -1,0 +1,22 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build testing place",
+			"type": "shell",
+			"command": "rojo build --output testplace.rbxlx default.project.json",
+		},
+		{
+			"label": "Build to plugin folder",
+			"type": "shell",
+			"command": "rojo build --output $env:LOCALAPPDATA/Roblox/Plugins/PluginTemplate.rbxmx plugin.project.json",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
