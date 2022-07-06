@@ -1,5 +1,5 @@
 {
-	"name": "PluginTemplate",
+	"name": "Muledog",
 	"tree": {
 		"$className": "Folder",
 		"$path": "src"
