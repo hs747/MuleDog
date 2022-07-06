@@ -1,5 +1,6 @@
-# Project place file
-/PluginWorkflow.rbxlx
+# All roblox place fiels
+/*.rbxlx
+/*.rbxl
 
 # Roblox Studio lock files
 /*.rbxlx.lock
